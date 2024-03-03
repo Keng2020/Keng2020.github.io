@@ -3,30 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tolstoy Tan - Home</title>
     <link rel="stylesheet" href="style.css">
+    <title>Tolstoy Tan Personal's Webpage</title>
 </head>
 <body>
-
     <header>
-        <h1>Tolstoy Tan</h1>
+        <h1 id="page-title">Tolstoy Tan</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#" onclick="loadContent('home')">Home</a></li>
+            <li><a href="#" onclick="loadContent('about')">About</a></li>
+            <li><a href="#" onclick="loadContent('portfolio')">Portfolio</a></li>
+            <li><a href="#" onclick="loadContent('contact')">Contact</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <article>
-            <h2>Welcome to My Website!</h2>
-            <p>This is a placeholder for your personal content. You can introduce yourself, showcase your projects, or share anything else you'd like.</p>
-        </article>
+    <div class="container", id="main-content">
+        <!-- Dynamic content will be loaded here -->
     </div>
     <footer>
         <p>Copyright &copy; 2023 Tolstoy Tan</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

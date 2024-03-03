@@ -6,56 +6,107 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif; /* Substitute with your preferred font */
     line-height: 1.6;
-    padding: 20px;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    padding-top: 60px; /* Adjust based on your header height */
 }
 
 header {
-    background: #007bff;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
 nav ul {
     list-style: none;
-    background-color: #333;
-    text-align: center;
-    padding: 10px 0;
 }
 
 nav ul li {
     display: inline;
+    margin-left: 20px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 15px 20px;
-    display: inline-block;
+    padding: 5px 10px;
 }
 
-.container {
+.profile-pic {
+    border-radius: 50%;
     margin-top: 20px;
-    padding: 20px;
-    background: white;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
-footer {
-    background: #333;
-    color: #fff;
+.main-container {
     text-align: center;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    margin: 20px;
+}
+
+.main-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.main-container p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.main-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {
+    .header-container {
+        flex-direction: column;
+    }
+
     nav ul li {
         display: block;
+        margin: 5px 0;
+    }
+}
+
+/* Additional styles for portfolio cards */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    background: #ffffff;
+    color: #333333;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem; /* For spacing between cards and bottom of the container */
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio-container {
+        grid-template-columns: 1fr; /* Stack the cards on top of each other on small screens */
     }
 }

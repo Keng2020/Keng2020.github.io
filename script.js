@@ -2,7 +2,7 @@
 const pages = {
     home: {
         title: "Home",
-        content: `<img src="your-profile-pic.jpg" alt="Tolstoy Tan" class="profile-pic">
+        content: `<img src="assets/Prof_pic.png" alt="Tolstoy Tan" class="profile-pic">
                   <h1>Hi, I'm Tolstoy Tan.</h1>
                   <p>I make videos about front-end development to help you become a better developer.</p>
                   <p>I also do freelance development, building everything from simple storefront websites to full-featured webapps.</p>

@@ -96,14 +96,21 @@ a:hover {
     padding: 1rem;
 }
 
+/* Card default style */
 .card {
-    background: #ffffff;
-    color: #333333;
-    border-radius: 0.5rem;
-    padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 1rem; /* For spacing between cards and bottom of the container */
+    /* Your existing styles */
+    max-height: 100px; /* Set a max height for the collapsed state */
+    overflow: hidden; /* Hide the overflow content */
+    cursor: pointer; /* Indicates the card is clickable */
+    transition: max-height 0.5s ease; /* Smooth transition for max-height */
 }
+
+/* Expanded card style */
+.card.expanded {
+    max-height: 1000px; /* Set a max height for the expanded state */
+    /* You may need to adjust this value based on your content */
+}
+
 
 @media screen and (max-width: 600px) {
     .portfolio-container {

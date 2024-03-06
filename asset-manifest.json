@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.9261ed29.css",
-    "main.js": "/static/js/main.3bac1598.js",
+    "main.css": "/static/css/main.647ddd61.css",
+    "main.js": "/static/js/main.0a3e925f.js",
     "static/js/453.982118da.chunk.js": "/static/js/453.982118da.chunk.js",
+    "static/media/NZGD_Recover.gif": "/static/media/NZGD_Recover.3c631f70ec3752948caf.gif",
+    "static/media/NZGD_Delete.gif": "/static/media/NZGD_Delete.ca687adcbd9052a571a5.gif",
+    "static/media/NZGD_toggle.gif": "/static/media/NZGD_toggle.c4aef0084e269dc7106d.gif",
+    "static/media/QPESUMS_4.png": "/static/media/QPESUMS_4.92faac36b02277cbc858.png",
+    "static/media/KKHTCNN_Proj.gif": "/static/media/KKHTCNN_Proj.340206986396417f375a.gif",
+    "static/media/QPESUMS_3.png": "/static/media/QPESUMS_3.1d1bf4240ba59a4a95e4.png",
+    "static/media/Slope_MATLAB_1.png": "/static/media/Slope_MATLAB_1.e5e86942e311b9960600.png",
+    "static/media/Slope_MATLAB_2.png": "/static/media/Slope_MATLAB_2.634dd39fc449e2dc89c5.png",
+    "static/media/QPESUMS_2.png": "/static/media/QPESUMS_2.ea9c0f9f6761215b871b.png",
+    "static/media/DiscordBot_1.png": "/static/media/DiscordBot_1.7d58317ea294f97685d9.png",
+    "static/media/QPESUMS_1.png": "/static/media/QPESUMS_1.43a2381f4f8d44d52d44.png",
     "static/media/Prof_pic.png": "/static/media/Prof_pic.5e0a992895825b2f20ed.png",
     "static/media/pic2.jpg": "/static/media/pic2.f49ea23a75f3aec1194e.jpg",
     "index.html": "/index.html",
-    "main.9261ed29.css.map": "/static/css/main.9261ed29.css.map",
-    "main.3bac1598.js.map": "/static/js/main.3bac1598.js.map",
+    "main.647ddd61.css.map": "/static/css/main.647ddd61.css.map",
+    "main.0a3e925f.js.map": "/static/js/main.0a3e925f.js.map",
     "453.982118da.chunk.js.map": "/static/js/453.982118da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9261ed29.css",
-    "static/js/main.3bac1598.js"
+    "static/css/main.647ddd61.css",
+    "static/js/main.0a3e925f.js"
   ]
 }

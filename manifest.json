@@ -20,7 +20,7 @@
     {
       "src": "TYK_icon.png",
       "type": "image/png",
-      "sizes": "1024x1024"
+      "sizes": "600x600"
     }
   ],
   "start_url": ".",
